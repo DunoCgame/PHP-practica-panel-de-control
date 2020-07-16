@@ -1,0 +1,100 @@
+*{
+margin:0px;
+padding:0px;	
+	
+}
+.ContainerClase{	
+	display:flex;
+	justify-content:center;
+	
+	background-image: url("../img/img.jpg"); 
+	background-repeat: no-repeat;
+	width:100%;
+	height:100%;
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: 100% 100%;
+	
+	
+	/* background-color:rgba(115, 115, 115, 0.5);  */
+	
+
+}
+
+.area-register{
+	
+	background:rgba(115, 115, 115, 0.5); 
+	width:300px;
+	height:420px;
+	
+	margin-top:30px;
+	
+	padding:10px;
+	
+display:flex;	
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+border:2px solid grey;
+
+
+
+}
+.formRegisterClass{
+	
+	padding-left:20px;
+}
+.title_login{
+	
+	text-align:center;
+	font-size:30px;
+	color:white;
+	/* margin-bottom:18px; */
+	/* margin-top:18px; */
+	
+}
+
+.input_login{
+
+	width:260px;
+	height:30px;
+	margin-bottom:12px;
+	border-style:none;
+	
+	
+	text-align:center;
+	
+}
+
+.Pass{color:white; font-size:20px; margin-bottom:1px;}
+.User{color:white; font-size:20px;  margin-bottom:1px;}
+
+.olvidado{
+	font-size:20px;
+	
+}
+.olvidado>.link{color:yellow; font-size:20px;  text-decoration:none;}
+
+.btn{
+	margin-bottom:16px;
+	background:grey;
+	font-size:16px;
+	color:white;
+	width:100px;
+	height:60px;
+	
+	border-radius:50px;
+	border-style:none;
+	margin-left:20px;
+	
+}
+
+.btn:hover{
+	box-shadow: 
+			0 0 5px rgba(255, 255, 255, 1),
+			0 0 10px rgba(255, 255, 255, 1);
+	
+	
+}
+.register{ background:blue;}

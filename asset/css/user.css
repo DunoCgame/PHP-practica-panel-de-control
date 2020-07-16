@@ -1,0 +1,125 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+.BodyClass{
+	
+	background:gray;
+	
+	background-image: url("../img/img.jpg"); 
+	background-repeat: no-repeat;
+	width:100%;
+	height:100%;
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: 100% 100% 100% 100% ;
+	
+	
+}
+.HeaderClase{
+	
+		/* background-color:rgba(115, 115, 115, 0.5); */
+		
+	height:70px;
+	margin-bottom:5px;
+}
+
+.NavClase{
+	
+	/* background-color:rgba(115, 115, 115, 0.5);  */
+	background-color:black;
+	display:flex;
+	
+}
+.NavClase__logo{
+	
+	margin:6px;
+}
+.NavClase_ItenMenu{
+	
+	width:100%;
+	display:flex;
+	justify-content:space-between;	
+
+	
+}
+
+.NavClase_item{
+	
+	list-style:none;
+	margin:25px;	
+}
+.relog{
+	color:white;
+	font-size:20px;
+
+}
+.NavClase_link{
+	
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+	
+	
+}
+
+
+.Webmaster{
+	margin-left:2px;
+	
+	
+}
+.fecha{
+	margin-left:30px;
+	margin-right:0px;
+	
+	
+}
+
+
+.ContainerClase{
+	width:100%;
+	
+	
+}
+.MainClase{
+	/* height:300px; */
+	
+}
+
+.Contenidos_Datos{
+	background:rgba(255, 255, 255, 0.1);
+	
+	width:100%;
+	height:99%;
+	display:flex;
+	flex-direction:row;
+}
+.DatosUsuarios{
+
+	background:rgba(255, 255, 255, 0.1);
+	width:100%;
+	
+	display:flex;
+	
+	
+	
+}
+.VideoSelect{
+	
+	background:black;
+}
+
+.FooterClase{
+	
+	background:black;
+	 /* background:rgba(255, 255, 255, 0.3); */
+	padding:10px;
+	color:white;
+	text-align:center;
+	clear:both;
+	font:20px;
+}
+

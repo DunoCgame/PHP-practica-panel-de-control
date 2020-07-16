@@ -1,0 +1,130 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+.BodyClass{
+	
+	background:gray;
+	
+	 background-image: url("../img/img.jpg"); 
+	background-repeat: no-repeat;
+	width:100%;
+	height:100%;
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: 100% 100%;
+	
+	
+}
+.HeaderClase{
+	
+		background-color:rgba(115, 115, 115, 0.5);
+	height:80px;
+}
+
+.NavClase{
+	
+		background-color:rgba(115, 115, 115, 0.5);
+	display:flex;
+	
+}
+.NavClase__logo{
+	
+	margin:10px;
+}
+.NavClase_ItenMenu{
+	
+	width:100%;
+	display:flex;
+	justify-content:flex-end;	
+}
+.NavClase_item{
+	
+	list-style:none;
+	margin:25px;
+	margin-left:7px;
+	
+}
+.NavClase_link{
+	
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+}
+
+.active{
+	color:white;
+
+
+}
+.NavClase_item_above{
+	/* background:red; */
+	/* padding:5px; */
+	/* margin-top:19px; */
+	
+}
+.NavClase_item:hover{
+	border-bottom:2px solid white;
+	text-shadow:
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+	
+}
+
+.ContainerClase{
+	width:100%;
+	
+	
+}
+.MainClase{
+	/* background:white; */
+	
+	
+}
+
+.Prewiuv{
+
+	width:100%;
+	height:auto;
+	
+	display:flex;
+
+
+	background:rgba(255, 255, 255, 0.9);
+
+
+
+	
+}
+
+.Main_Img{
+	width:50%;
+	height:360px;
+	
+
+}
+
+.tex-Container{
+	width:50%;
+	
+	
+}
+.ArticuloPostClase__Title{ text-align:center;}
+.ArticuloPostClase__Title__h2{ text-align:center; margin:10px;}
+.ArticuloPostClase__Title__h2>a{ text-decoration:none; color:black;}
+.ArticuloPostClase__TextArticuloClase{ text-align:justify; padding:10px;}
+
+
+
+.FooterClase{
+	
+background-color:rgba(115, 115, 115, 0.5);
+	clear:both;
+	padding:20px;
+	
+	text-align:center;
+	color:white;
+	font-size:20px;
+}
